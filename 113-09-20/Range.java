@@ -22,4 +22,5 @@ public class Range {
                     Boolean.TRUE, Boolean.FALSE);
         }    
     }
+    //註解：Java 的基本資料型別都有其範圍，可以透過其對應的 MIN_VALUE 和 MAX_VALUE 來取得。
     

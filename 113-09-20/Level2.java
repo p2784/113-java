@@ -1,12 +1,11 @@
-package cc.openhome;
 
 public class Level2 {
     public static void main(String[] args) {
-        var score = 88;
-        var quotient = score / 10;
-        var level = '\0';
+        int score = 88;
+        int quotient = score / 10;
+        char level = '\0';
         
-        switch(quotient) { 
+        switch(quotient) { // 這裡使用商數來判斷等級，例如 88 / 10 = 8，所以等級是 B，利用 switch 來判斷
             case 10: 
             case 9: 
                 level = 'A';
@@ -21,8 +20,8 @@ public class Level2 {
                 level = 'D';
                 break; 
             default: 
-                level = 'E';
+                level = 'F';
         }
-        System.out.printf("�o�����šG%c%n", level);
+        System.out.printf("得分等級%c%n", level);
     }
 }
