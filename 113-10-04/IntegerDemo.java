@@ -1,5 +1,3 @@
-package cc.openhome;
-
 public class IntegerDemo {
     public static void main(String[] args) {
         int data1 = 10;
