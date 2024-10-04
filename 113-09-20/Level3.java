@@ -10,6 +10,6 @@ public class Level3 {
             case 6     -> 'D'; 
             default    -> 'E';
         };
-        System.out.printf("ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Å¡G%c%n", level);
+        System.out.printf("±o¤Àµ¥¯Å : %c%n", level);
     }
 }

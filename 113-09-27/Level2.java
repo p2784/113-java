@@ -4,7 +4,7 @@ public class Level2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // 建立 Scanner 物件，並指定輸入來源是標準輸入
         System.out.print("請輸入分數: ");
-        char level = '\0';
+        char level = '\0';  
 
             while(input.hasNext()) {// 當還有輸入時繼續執行
                 int score = input.nextInt(); // 讀取使用者輸入的整數
@@ -28,6 +28,6 @@ public class Level2 {
             System.out.printf("得分等級%c%n", level);
             System.out.print("請輸入分數: ");
         }
-
+//ctrl+z 結束程式
     }
 }
